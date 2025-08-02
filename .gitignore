@@ -1,0 +1,33 @@
+# Archivos de entorno
+.env
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos generados
+static/generated/*
+static/uploads/*
+!static/generated/.gitkeep
+!static/uploads/.gitkeep
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de datos personales (opcional - descomentar si no quieres subir las fotos)
+# FOTOS*/
+
+# Archivos ZIP
+*.zip
+
+# Archivos multimedia grandes
+*.mp4
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Archivos de configuración IDE
+.vscode/
+.idea/
